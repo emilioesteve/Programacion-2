@@ -70,9 +70,9 @@ function mapear(lista, funcion){
     lista2.push(funcion(lista[i]));
   }
 
-  return(lista2);
+  return lista2;
 
-}
+}+
 
 function reducir(llista, t, funcionF ){
 
